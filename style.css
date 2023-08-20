@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+   
+}
+#navbar{
+    display: flex;
+    align-items: center;
+   position:sticky;
+   /* background-color:rgba(26, 29, 32, 0.506); */
+
+}
+#navbar::before{
+    content: " ";
+    background-color: rgb(76, 74, 74);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+    width: 100%;
+    z-index: -1;
+
+}
+
+#logo{
+ margin: 2px 4px;
+ padding: 1px;
+
+}
+#logo img{
+    height: 50px;
+    margin: 1px 1px;
+    border-radius: 100%;
+
+}
+
+#navbar ul{
+    display: flex;
+    margin: 1px 10px;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.0rem;
+    
+}
+#navbar ul li a{
+    color:white;
+    padding: 10px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(201, 255, 241);
+
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 770px;
+    justify-content: center;
+    align-items: center;
+
+}
+#Home::before{
+    content: " ";
+    position: absolute;
+    background-image: url("frintbackfround.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    top: 0px;
+    left: 0px;
+    height: 138%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+
+}
+
+#Home h1{
+    color: white;
+    text-align: center;
+    size: 2px;
+
+}
+#Home p{
+    color:cornsilk;
+    font-size: 1.1rem;
+    padding: 13px;
+
+}
+
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family:'Bree Serif';
+
+}
+.h-socondry{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+.btn{
+    padding: 6px 10px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.btn2{
+    padding:9px 45px;
+    width: 170px;
+    border: 1px solid white;
+    background-color: rgb(87, 87, 103);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#services{
+    margin: 30px;
+    display: flex;
+    
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 12px;
+    background-color:beige
+    
+
+}
+#services .box img{
+    height: 170px;
+    margin: auto;
+    display: block;
+    
+
+}
+.center{
+    text-align: center;
+}
+#services-container .h-primary-container{
+    text-align: center;
+
+}
+#client-section{
+    height:4px;
+}
+#client-section .h-primary{
+   color:rgb(255, 255, 255)
+}
+#client-section::before{
+  
+    content: " ";
+    position: absolute;
+    background: url("frontimg2.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px;
+    width: 100%;;
+    z-index: -1;
+    opacity: 0.9;
+}
+#clients{
+  
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.client-item{
+    padding: 20px;
+}
+#navbar2 ul li a{
+    color:white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
+#clients img{
+     margin: 9px 20px;
+     justify-content: center;
+     border-radius: 75px;
+     padding:  1px 1px;
+}
+
+#contact {
+    width: 100%;
+    height: 430px;
+    margin-top: 325px;
+    display: block;
+    text-align: center;
+    background: url("cntact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ label p{
+    margin-bottom: -15px;
+    margin-left: -125px;
+   
+
+
+}
+
+
